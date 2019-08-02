@@ -1,0 +1,30 @@
+{
+  "name": "gulp-express-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "gulp",
+    "express",
+    "vue"
+  ],
+  "author": "William Reetz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.3.0",
+    "gulp": "^4.0.2",
+    "gulp-live-server": "0.0.31",
+    "gulp-sass": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0",
+    "vueify": "^9.4.1"
+  }
+}
